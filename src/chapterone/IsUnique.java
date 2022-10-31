@@ -1,12 +1,12 @@
 package chapterone;
 
 /*
-Implement an algorithm to determine if a string has all unique characters. What if you
-cannot use additional data structures?
+Implement an algorithm to determine if a string has all unique characters.
+-----------> What if you cannot use additional data structures?
 
  */
 
-public class One {
+public class IsUnique {
     public static void main(String[] args) {
         System.out.println(isUnique("salah"));
         System.out.println(isUnique("Ahmed"));
@@ -14,7 +14,7 @@ public class One {
 
     // Assuming string is ASCII
     // runtime o(n)
-    // space o(n)
+    // space o(1) #128
     static boolean isUnique(String s) {
         if (s.length() > 128) {
             return false;
