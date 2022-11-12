@@ -1,4 +1,4 @@
-package chapterone;
+package arrays_and_strings;
 
 import java.util.Arrays;
 
