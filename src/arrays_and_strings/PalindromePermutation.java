@@ -9,6 +9,9 @@ public class PalindromePermutation {
 
     }
 
+    /*
+    runtime o(N) where n is len of str
+     */
     static boolean palindromePermutation(String str) {
         int[] occurenceCount = new int[26];
         for (int i = 0; i < str.length(); i++) {

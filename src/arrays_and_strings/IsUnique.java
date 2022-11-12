@@ -13,7 +13,7 @@ public class IsUnique {
     }
 
     // Assuming string is ASCII
-    // runtime o(n)
+    // runtime o(n) where n is len of str
     // space o(1) #128
     static boolean isUnique(String s) {
         if (s.length() > 128) {
