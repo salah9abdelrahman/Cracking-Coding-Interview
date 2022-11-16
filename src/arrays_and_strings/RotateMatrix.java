@@ -28,9 +28,8 @@ public class RotateMatrix {
             return;
         }
         int n = matrix.length;
-        for (int layer = 0; layer < n / 2; layer++) {
-            int first = layer;
-            int last = n - 1 - layer;
+        for (int first = 0; first < n / 2; first++) {
+            int last = n - 1 - first;
             for (int i = first; i < last; i++) {
                 int offset = i - first;
                 int top = matrix[first][i];
